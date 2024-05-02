@@ -1,1 +1,14 @@
-Monte Carlo Simulation is a mathematical technique used to estimate the possible outcomes of an uncertain event or scenario. It involves generating random variables for uncertain inputs over a large number of iterations to simulate a range of possible outcomes. This method is used across various fields, including finance, engineering, project management, and physics, to assess risk, understand variability, and make better decisions under uncertainty. By aggregating the outcomes from these simulations, analysts can obtain probability distributions of different results, helping them to understand the likelihood of various scenarios and make informed decisions.
+This repository contains Python code for portfolio optimization and Monte Carlo simulation applied to the retail sector. Using historical stock price data for companies like Costco, Walmart, Target, and Dollar General, the code performs various analyses to optimize portfolio returns and assess risk.
+
+**Key Features**:
+
+Data Retrieval: Utilizes Pandas to read and process stock price data from CSV files, focusing on the 'Adj Close' column.
+
+Portfolio Analysis: Computes and visualizes cumulative returns, weighted returns, and performs Monte Carlo simulations to assess portfolio performance and risk.
+
+Optimization Techniques: Implements minimization search algorithms from SciPy to find optimal portfolio weights that maximize the Sharpe ratio, balancing returns and volatility.
+
+Frontier Analysis: Explores the efficient frontier by generating portfolios with varying expected returns and minimum volatility constraints.
+
+**Conclusion**:
+This project provides a practical demonstration of portfolio optimization techniques and Monte Carlo simulations for investment analysis in the retail sector. The provided code and analysis can serve as a foundation for further research and investment strategy development.
